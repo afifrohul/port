@@ -1,0 +1,54 @@
+body{
+  overflow-x: hidden !important;
+}
+.jumbotron {
+  padding: 6rem;
+  background-image:url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0px, -100px;
+  overflow:hidden;
+}
+
+.jumbotron h1, .jumbotron p {
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.about {
+  min-height: 400px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.foto .card {
+  opacity: 0;
+  transform: translate(0, -20px);
+  transition: .5s;
+}
+
+.foto .card.muncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.pi, .pa {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
+}
+
+.pa {
+  transform: translate(50px, 0);
+}
+
+.pi.pmuncul, .pa.pmuncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
