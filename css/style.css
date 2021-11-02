@@ -1,16 +1,17 @@
-body{
+body {
   overflow-x: hidden !important;
 }
 .jumbotron {
   padding: 6rem;
-  background-image:url(../img/bg.jpg);
+  background-image: url(../img/grid-lines-abstract-digital-art-uhdpaper.com-hd-4.306.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: 0px, -100px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1,
+.jumbotron p {
   color: white;
   text-shadow: 1px 1px 10px black;
 }
@@ -30,15 +31,16 @@ section {
 .foto .card {
   opacity: 0;
   transform: translate(0, -20px);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .foto .card.muncul {
   opacity: 1;
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
 
-.pi, .pa {
+.pi,
+.pa {
   opacity: 0;
   transform: translate(-50px, 0);
   transition: 1s;
@@ -48,7 +50,8 @@ section {
   transform: translate(50px, 0);
 }
 
-.pi.pmuncul, .pa.pmuncul {
+.pi.pmuncul,
+.pa.pmuncul {
   opacity: 1;
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
