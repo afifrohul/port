@@ -17,8 +17,3 @@ $(window).scroll(function () {
     $(".foto .card").addClass("muncul");
   }
 });
-
-$(window).on("load", function () {
-  $(".pi").addClass("pmuncul");
-  $(".pa").addClass("pmuncul");
-});
